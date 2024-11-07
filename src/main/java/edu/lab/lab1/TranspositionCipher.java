@@ -1,8 +1,8 @@
 package edu.lab.lab1;
 
 public class TranspositionCipher {
-    private final static int[] k1 = {3, 5, 2, 1, 4};//{1, 5, 4, 3, 2};
-    private final static int[] k2 = {4, 3, 2, 5, 1};//{1, 4, 5, 3, 2};
+    private final static int[] k1 = {1, 5, 4, 3, 2};
+    private final static int[] k2 = {1, 4, 5, 3, 2};
     private final static int SIZE = 5;
 
     public static String encrypt(String in) {
