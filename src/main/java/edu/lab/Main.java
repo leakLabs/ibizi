@@ -1,11 +1,15 @@
 package edu.lab;
 
+import edu.lab.lab1.TranspositionCipher;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello and welcome!");
+        String startStr = "шифрование_перестановкой_";
+        System.out.printf("Незашифрованное сообщение: %s\n", startStr);
+        String encStr = TranspositionCipher.encrypt(startStr);
+        System.out.printf("Зашифрованное сообщение: %s\n", encStr);
 
-        for (int i = 1; i <= 5; i++) {
-            System.out.println("i = " + i);
-        }
+        String decStr = TranspositionCipher.decrypt(encStr);
+        System.out.printf("Расшифрованное сообщение: %s\n", decStr);
     }
 }
