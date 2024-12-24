@@ -9,11 +9,15 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
+//        // Открытый текст для шифрования
 //        String startStr = "шифрование_перестановкой_";
 //        System.out.printf("Незашифрованное сообщение: %s\n", startStr);
+//
+//        // Шифрование текста
 //        String encStr = TranspositionCipher.encrypt(startStr);
 //        System.out.printf("Зашифрованное сообщение: %s\n", encStr);
 //
+//        // Расшифровка текста
 //        String decStr = TranspositionCipher.decrypt(encStr);
 //        System.out.printf("Расшифрованное сообщение: %s\n", decStr);
 
